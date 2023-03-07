@@ -18,14 +18,14 @@ main {
 nav li {
 display: inline;
 list-style-type: none;
-margin-right: 20px;
+margin-right: 5px;
 }
 
 nav {
 padding: 7px;
 position: absolute;
 top: 0;
-left : 200px;
+left : 20px;
 font-family: 'League Gothic', sans-serif;
 font-style: sans-serif;
 }
