@@ -1,9 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 :root{
-    --main-color : #2c3333;
-    --hardware-color : #0E8388;
-    --software-color : #2E4F4F;
+    --main-color : #FFACAC;
+    --awal-color : #FFBFA9;
+    --kedua-color : #FFEBB4;
 }
 section{
     display: inline-block;
@@ -12,12 +12,12 @@ section{
     margin: 5%;
     border-radius: 10px;
 }
-.hardware.software{
-    border: 3px solid bisque;
+.bunga1.bunga2{
+    border: 3px solid #B958A5;
     width: 800px;
 }
 h1{
-    --second-color : bisque;
+    --second-color : #B958A5;
     text-align: center;
     color: var(--second-color);
 }
@@ -25,24 +25,29 @@ body{
     background-color: var(--main-color);
 }
 p{
-    text-align : center;
-    margin: 5px;
+    margin: 3px;
     font-size: 10px;
-    color: bisque;
+    color: #4C3F91;
 }
-.keras{
+.atas{
     height: 150px;
-    width:  150px;
-    margin : 10px;
-    padding: 5px;
-    border : 7px double white;
-    background-color: var(--hardware-color);
+    width:  100px;
+    margin : 5px;
+    padding: 0px;
+    border : 7px double #FF5677;
+    background-color: var(--awal-color);
 }
-.lunak{
+.bawah{
     height: 150px;
-    width:  150px;
-    margin : 10px;
-    padding: 5px;
-    border : 7px double white;
-    background-color: var(--software-color);
+    width:  100px;
+    margin : 5px;
+    padding: 0px;
+    border : 7px double #B958A5;
+    background-color: var(--kedua-color);
+}
+h5{
+    color: #4C3F91;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
 }
