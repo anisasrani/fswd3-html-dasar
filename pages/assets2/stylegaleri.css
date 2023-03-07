@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+:root{
+    --main-color : #2c3333;
+    --hardware-color : #0E8388;
+    --software-color : #2E4F4F;
+}
+section{
+    display: inline-block;
+    width: 30%;
+    padding: 0%;
+    margin: 5%;
+    border-radius: 10px;
+}
+.hardware.software{
+    border: 3px solid bisque;
+    width: 800px;
+}
+h1{
+    --second-color : bisque;
+    text-align: center;
+    color: var(--second-color);
+}
+body{
+    background-color: var(--main-color);
+}
+p{
+    text-align : center;
+    margin: 5px;
+    font-size: 10px;
+    color: bisque;
+}
+.keras{
+    height: 150px;
+    width:  150px;
+    margin : 10px;
+    padding: 5px;
+    border : 7px double white;
+    background-color: var(--hardware-color);
+}
+.lunak{
+    height: 150px;
+    width:  150px;
+    margin : 10px;
+    padding: 5px;
+    border : 7px double white;
+    background-color: var(--software-color);
+}
