@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets2/Styletodocrud.css">
+    <title>To Do List CRUD</title>
+</head>
+<body>
+    <h1><span class="title">to do</span> LIST</h1>
+    <div class="inputDiv">
+    <form method="post">
+        <input class="input" name="title" type="text" placeholder="Input apa aja! ke CRUD"/>
+        <button class="add" id="submit" type="submit" >SIMPAN</button>
+        <button class="tampil" onclick="list()">TAMPILKAN</button>
+        <button class="del" id="delete" hidden>HAPUS</button>
+    </form>
+    </div>
+    <div class="container">
+        <div class="input">
+        <ul id="todos"></ul>
+        </div>
+    </div>
+    
+    <script src="assets2/todolistcrud.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+window.alert("ini menggunakan window.alert");
